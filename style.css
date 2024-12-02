@@ -14,7 +14,9 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 9px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 } /*selected the navbar class using . selector to align all the items in the center 
  and give the padding from above
 */
@@ -24,18 +26,35 @@ img{
     height: 400px;
     width: 480px;
     border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
 }/*selected the img tag to align to resize the image and smoothed the border of the image*/
+
+img:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Increase shadow on hover */
+}
 
 .imgContainer{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 4px;
 } /*selected the image container to center the image */
 
 section{
-    padding-top: 7px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 } /* to provide padding from top */
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 .items{
     cursor: pointer;
@@ -46,6 +65,7 @@ section{
 .items:hover{
     background-color: black;
     color: white;
+    
 } /* when hovering the items of navbar the bg and text color will invert*/
 
 main {
@@ -57,5 +77,18 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: 6px;
 }
+
+h3{
+    height: 40px;
+    width: 40%;
+    text-align: center;
+    margin: 0;
+}
+
+h2{
+    font-size :large;
+}
+
+
