@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+ } /*selected the body tag to give the overall padding and margin to none */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 9px;
+} /*selected the navbar class using . selector to align all the items in the center 
+ and give the padding from above
+*/
+
+
+img{
+    height: 400px;
+    width: 480px;
+    border-radius: 5px;
+}/*selected the img tag to align to resize the image and smoothed the border of the image*/
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} /*selected the image container to center the image */
+
+section{
+    padding-top: 7px;
+} /* to provide padding from top */
+
+.items{
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 3px;
+}  /* it is used to set the padding,border-radius and cursor for items in navbar */
+
+.items:hover{
+    background-color: black;
+    color: white;
+} /* when hovering the items of navbar the bg and text color will invert*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Tells the browser what type of document is this , here it is HTMl  & it is also the root element-->
+<html lang="en">
+<!-- Used to provide the metadata like charset , title for the HTML page -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Gaurav's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Body is the main tag in which we write our HTML code -->
+<body> 
+    <!-- To make our static page or website good , we use tags like this to make it SEO (Google Search Rankings) friendly 
+         Here our header will be like navbar or maybe signup button
+    -->
+    <header>
+        <!-- It is just like div but it tells that it is a navbar -->
+        <nav class="navbar">
+            <!-- a simple tag or container in which we write several other tags etc. -->
+            <div class="items"><a href="#">Home</a></div>
+            <div class="items"><a href="https://gaurav060404.atlassian.net/jira/software/projects/WGS/boards/1">Projects</a></div>
+            <div class="items"><a href="#footer">About Me</a></div>
+        </nav>
+    </header>
+    <!-- Defines the main section of our page , here : Our flower and it's description is our main purpose to show in our page -->
+    <main>
+        <h1 style="text-align: center;">A Red Dalhia Flower</h1>
+    <div class="imgContainer">
+        <img src="https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        <section>
+            <details>
+                <h3>A red flower is a flower which is red in color but colorful in odor</h3>
+            </details>
+        </section>
+    </div>
+    </main>
+    <!-- Defines the footer for our page like copyright etc. -->
+    <footer>
+        <h5>©️ Gaurav Private Limited & Co.</h5>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
