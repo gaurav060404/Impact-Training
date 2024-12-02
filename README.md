@@ -1,1 +1,1 @@
-![Basic Portfolio] (image.png)
+![Basic Portfolio](image.png)
