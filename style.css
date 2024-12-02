@@ -1,6 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body{
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
  } /*selected the body tag to give the overall padding and margin to none */
 
 .navbar{
@@ -13,7 +20,7 @@ body{
 */
 
 
-img{
+img{ 
     height: 400px;
     width: 480px;
     border-radius: 5px;
@@ -41,8 +48,14 @@ section{
     color: white;
 } /* when hovering the items of navbar the bg and text color will invert*/
 
+main {
+    flex: 1;
+}
+
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 10px;
 }
