@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     margin: 0;
-}
+} /* we select the whole body to give a full height and margin to 0 so the other elements don't get endup with low height and width*/
 
 body{
     padding: 0;
